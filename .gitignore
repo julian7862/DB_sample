@@ -1,21 +1,49 @@
-.gradle
-**/build/
-!src/**/build/
+# IDE and Editor Files
+*#
+*.iml
+*.ipr
+*.iws
+*.sw?
+*~
+.#*
+.*.md.html
+.classpath
+.factorypath
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+.vscode
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Operating System Files
+.DS_Store
+.attach_pid*
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
+# Build and Dependency Files
+*.jar
+*.gradle
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+dependency-reduced-pom.xml
+interpolated*.xml
+lib/
+manifest.yml
+out
+target
+.flattened-pom.xml
 .gradletasknamecache
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Miscellaneous Files and Directories
+*
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+dump.rdb
+overridedb.*
+secrets.yml
+.sts4-cache
