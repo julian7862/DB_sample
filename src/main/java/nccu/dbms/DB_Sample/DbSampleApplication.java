@@ -1,4 +1,4 @@
-package com.example.demo;
+package nccu.dbms.DB_Sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DbSampleApplication<DB_sample>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "nccu.dbms.DB_Sample.DbSampleApplication",
+            "projectName": "DB_sample",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
